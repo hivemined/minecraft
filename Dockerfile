@@ -2,7 +2,7 @@ FROM scratch
 MAINTAINER "Ryan - faceless.saint@gmail.com"
 
 # version information
-ENV MINECRAFT_VERSION=1.7.10
+ENV MINECRAFT_VERSION=1.8
 
 # label containers for use with Hivemined
 LABEL hivemined.comb hivemined.minecraft.version=${MINECRAFT_VERSION}
