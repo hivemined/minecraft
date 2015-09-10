@@ -44,7 +44,7 @@ if [ "$OLD_VERSION" != "$NEW_VERSION" ]; then
     # update git repository with new tag
     if [ $__ENABLE_GIT = 1 ]; then
         git add README.md Dockerfile
-        git commit -m "Update minecraft image to $NEW_VERSION" && \
+        git commit -m "Update to $NEW_VERSION" && \
 		git tag "$NEW_VERSION" && git push && git push origin "$NEW_VERSION"
     fi
 else
