@@ -1,4 +1,4 @@
 # hivemined/minecraft
 A data image hosting an official, unmodified Minecraft server.
 
-Current Version: 1.7.2
+Current Version: 1.7.10
